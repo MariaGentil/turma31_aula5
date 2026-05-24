@@ -1,12 +1,7 @@
 <?php
 
-$valor = readline ("Digite um número: ");
-$soma = 0;
+$valor = readline ("Digite um número entre 1 e 10: ");
 
-for ($i= 1; $i <= $valor; $i++){
-    $soma_anterior = $soma;
-    $soma += $i;
-    echo "$soma_anterior + $i = $soma\n";
+for ($i = $valor ; $i <=10; $i++){
+    echo $i ."\n";
 }
-echo "\n A soma total final é de: $soma";
-    

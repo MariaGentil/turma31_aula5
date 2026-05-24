@@ -1,11 +1,8 @@
 <?php
 
-$turma = readline ("Insira a quantidade de alunos: ");
-$soma = 0;
+$valor = readline ("Digite um número: ");
 
-for ($i = 1; $i <= $turma; $i++){
-    $nota = readline ("Insira a nota do aluno $i: ");
-    $soma += $nota;
-}
-    $media = $soma / $turma;
-    echo "A media da turma é de: $media\n";
+for ($i = 1; $i <=10; $i++){
+     $resultado = $valor * $i;
+      echo "$valor x $i = $resultado.\n";
+} 

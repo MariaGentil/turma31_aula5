@@ -1,8 +1,7 @@
 <?php
 
-$valor = readline ("Digite um número: ");
+$valor = readline ("Digite um número entre 1 e 10: ");
 
-for ($i = 1; $i <=50; $i++){
-    if ($i % $valor == 0)
-    echo "Multiplo de $valor: $i\n";
+for ($i = $valor ; $i >=1; $i--){
+    echo $i ."\n";
 }
